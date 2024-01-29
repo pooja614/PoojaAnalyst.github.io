@@ -210,6 +210,32 @@ input, select, textarea {
 		clear: both;
 	}
 
+
+	/* .carousel-control-prev-icon 
+	{
+		width: 24px;
+		height: 24px;
+	}
+		
+	.carousel-control-next-icon
+	{
+		width: 24px;
+		height: 24px;
+	}  */
+
+	
+	.carousel-control-next,
+	.carousel-control-prev /*, .carousel-indicators */ {
+		filter: invert(100%);
+		
+		
+	}
+
+/* carousel*/ 
+.carousel-inner > .item {
+	height: 90%;
+	width: 90%;
+ }
 /* Container */
 
 	.container {
@@ -2631,3 +2657,16 @@ input, select, textarea {
 				}
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+	
